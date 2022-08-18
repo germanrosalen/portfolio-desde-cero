@@ -1,0 +1,86 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin:0;
+    background-color: #efefef;
+}
+/*agrego color al id titulo y tamaño de letra grande*/
+#titulo {
+    background-color: darkslategray;
+    color:ghostwhite; font-size:18mm; font-style: oblique;
+    border:3mm green solid;/*agrego borde (sintaxis: grosor, color y tipo de borde)*/
+    border-radius: 10px;
+    width:auto; /*agrego ancho del elemento para centrar el texto, con margen 0 y auto*/
+    text-align:center;
+    margin: 0 auto;
+}
+/*agrego estilo al logo de AP*/
+.encabezado {
+    background-color:grey;
+    border: 5px black solid;
+    border-radius:10px ;
+
+}
+/*agrego estilo al banner*/
+.banner{
+border:5px black solid;
+border-radius: 10px;
+}
+.fotocv{
+margin-top: 1mm;
+border:5px black solid;
+border-radius: 10px;
+background-color: green;
+}
+/*agrego estilo a acerca de*/
+.acercade {
+    margin-top: 1mm;
+    border:1mm black solid;
+    border-radius: 10px;
+    background-color:coral;
+}
+
+/* agrego estilo a la clase experiencia*/
+.experiencia {
+    margin-top: 1mm;
+    color:black;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: coral;
+}
+.educacion {
+    margin-top: 1mm;
+    color:black;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: coral;
+}
+.skill {
+    margin-top: 1mm;
+    color:black;
+    border: 5px black solid ;
+    border-radius: 10px;
+    background-color: coral;
+}
+.proyectos {
+    margin-top: 1mm;
+    color:black;
+    border: 5px black solid ;
+    border-radius: 10px;
+    background-color: coral;
+}
+.pie{
+    margin-top: 1mm;
+    color:black;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: coral;
+}
+.btn, .btn-close {
+    float: inline-start;
+}
+.b
+nav {
+    font-size: 11mm;
+}
